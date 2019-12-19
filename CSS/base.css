@@ -32,7 +32,7 @@ footer{
 
 .cv1{
     position: relative;
-    top: 8vh;
+    padding: 0;
     margin: 0 0 0 0;
     height: 92vh;
     background-color: #466365;
@@ -44,7 +44,7 @@ footer{
 }
 .cv2{
     position: relative;
-    top: 8vh;
+    padding: 0;
     margin: 0 0 0 0;
     height: 92vh;
     background-color: #466365;
@@ -56,7 +56,7 @@ footer{
 }
 .cv3{
     position: relative;
-    top: 8vh;
+    padding: 0;
     margin: 0 0 0 0;
     height: 92vh;
     background-color: #466365;
@@ -86,7 +86,9 @@ nav{
 nav > ul{
     margin: 0;
     padding: 0;
-
+    display: flex;
+    justify-content: space-around;
+    width: auto;
 }
 
 nav li{
@@ -146,25 +148,25 @@ nav li:hover .submenu{
 }
 
 .menu-cv:hover{
-    border-top: 5px solid #e44d23;
-    background-color: RGBa(228, 77, 38, 0.15);
+    border-top: 5px solid #f2e9e4;
+    background-color: RGBa(242, 233, 228, 0.15);
 }
 
 .menu-references:hover{
-    border-top: 5px solid #0070bb;
-    background-color: RGBa(000, 112, 192, 0.15);
+    border-top: 5px solid #f2e9e4;
+    background-color: RGBa(242, 233, 228, 0.15);
 }
 
 .menu-contact:hover{
-    border-top: 5px solid #e44d23;
-    background-color: RGBa(228, 77, 38, 0.15);
+    border-top: 5px solid #f2e9e4;
+    background-color: RGBa(242, 233, 228, 0.15);
 }
 .menu-portfolio:hover{
-    border-top: 5px solid #e44d23;
-    background-color: RGBa(228, 77, 38, 0.15);
+    border-top: 5px solid #f2e9e4;
+    background-color: RGBa(242, 233, 228, 0.15);
 }
 .menu-cv .submenu{
-    background-color: rgb(230, 100, 40);
+    background-color: #f2e9e4;
 }
 
 .menu-references .submenu{
@@ -197,13 +199,24 @@ nav li:hover .submenu{
 nav input[type=checkbox]:checked ~ ul{
     display: block;
 }
-@media only screen and (max-width: 780px){
+@media screen and (max-device-width: 780px){
+    *{
+        font-size: 3vw;
+    }
     .menu-mobile{
         display: block;
         color: #FFF;
-        background-color: rgba(29, 197, 151, 0.97);
+        background-color: rgba(242, 233, 228, 0.15);
         text-align: center;
         padding: 12px 0;
+        height: 3vh;
+    }
+    .menu{
+        width: 5vw;
+        top: 0.4vh;
+    }
+    nav{
+        background-color: #f2e9e4;
     }
     nav ul{
         display: none;
@@ -211,6 +224,7 @@ nav input[type=checkbox]:checked ~ ul{
     nav ul li, nav ul li a{
     width: 100%;
     text-align: center;
+    padding: 10px 0;
      }
     nav ul li, nav ul li:hover a{
       padding: 10px 0;
@@ -220,3 +234,4 @@ nav input[type=checkbox]:checked ~ ul{
         position: static;
     }
 }
+/* @media screen and (max-width: 780px)
