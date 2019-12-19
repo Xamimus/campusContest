@@ -34,7 +34,7 @@ footer{
 .logoFooter{
     width: 5vw;
 }
-.cv1{
+.div1{
     position: relative;
     padding-top: 10vh;
     margin: 0 0 0 0;
@@ -49,7 +49,7 @@ footer{
     flex-direction: column;
 
 }
-.cv2{
+.div2{
     position: relative;
     padding: 0;
     margin: 0 0 0 0;
@@ -63,9 +63,9 @@ footer{
     display: flex;
     flex-direction: column;
 }
-.cv3{
+.div3{
     position: relative;
-    padding: 0;
+    padding-bottom: 5vh;
     margin: 0 0 0 0;
     height: 92vh;
     background-color: #466365;
@@ -234,7 +234,7 @@ nav input[type=checkbox]:checked ~ ul{
         transform: translateY(-0.5vh);
     }
     nav{
-        background-color: rgba(242, 233, 228, 0.001);
+        background-color: rgba(242, 233, 228, 0.51);
 
     }
     nav ul{
