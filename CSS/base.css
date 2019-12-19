@@ -270,6 +270,6 @@ nav input[type=checkbox]:checked ~ ul{
     }
     .menu{
         width: 20vw;
-
+        transform: translateY(-2.5vh);
     }
 }
