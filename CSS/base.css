@@ -82,10 +82,10 @@ footer{
 
 }
 .elementHaut > h1{
-    font-size: 10vh;
+    font-size: 9vh;
     font-family: 'Baloo Bhai', cursive;
     text-align: center;
-    flex: 30%;
+
 }
 .elementBas{
     font-family: 'Sulphur Point', sans-serif;
@@ -251,6 +251,9 @@ nav input[type=checkbox]:checked ~ ul{
     .logoFooter{
         width: 12vw;
     }
+    .elementHaut > h1{
+        font-size: 8vw;
+    }
 }
 /* @media screen and (max-width: 780px) */
 
@@ -265,4 +268,5 @@ nav input[type=checkbox]:checked ~ ul{
         width: 20vw;
         transform: translateY(-2.5vh);
     }
+
 }

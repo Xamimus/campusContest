@@ -5,13 +5,60 @@
     width: 25vw;
     transform: translateY(-5vh);
 }
-
+.div2 .elementBas{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.div2:hover{
+    background-color: #ABABAB;
+}
 .professionel{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+    font-weight: bold;
+    transform: translateY(-7vh);
+}
+.professionel:hover{
+    color: darkred;
+}
+.scolaire{
     display: flex;
     justify-content: space-around;
     padding-top: 5vh;
     font-weight: bold;
+    transform: translateY(-5vh);
 }
-.scolaire{
-    flex: 50%;
+.scolaire:hover{
+    color: darkred;
+}
+.t2{
+    transform: translateY(-4vh);
+    color: #1E1149;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(12vh);
+}
+.logoTechno{
+    width: 10%;
+}
+.logoTechnoCss{
+    width: 7%;
+}
+.pourcent{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(17vh);
+}
+@media screen and (max-device-width: 780px){
+    .div2 .elementBas p{
+        font-size: 2vh;
+    }
+    .div1{
+        width: 100%;
+    }
+
 }
