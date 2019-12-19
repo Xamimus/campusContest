@@ -231,6 +231,7 @@ nav input[type=checkbox]:checked ~ ul{
     .menu{
         width: 35vw;
         top: 0.4vh;
+        transform: translateY(-0.5vh);
     }
     nav{
         background-color: rgba(242, 233, 228, 0.001);
