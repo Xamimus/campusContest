@@ -47,6 +47,7 @@ footer{
     background-size: cover;
     display: flex;
     flex-direction: column;
+
 }
 .cv2{
     position: relative;
@@ -89,9 +90,10 @@ footer{
 .elementBas{
     font-family: 'Sulphur Point', sans-serif;
     text-align: center;
-    font-size: 5vh;
+    font-size: 3.6vh;
     margin: 5vh 5vw 0 5vw;
     flex: 70%;
+    text-justify: auto;
 }
 .divFleche{
     flex: 10%;
@@ -221,7 +223,7 @@ nav input[type=checkbox]:checked ~ ul{
     .menu-mobile{
         display: block;
         color: #FFF;
-        background-color: rgba(242, 233, 228, 0);
+        background-color: rgba(242, 233, 228, 0.99);
         text-align: center;
         padding: 12px 0;
         height: 5vh;
@@ -231,10 +233,12 @@ nav input[type=checkbox]:checked ~ ul{
         top: 0.4vh;
     }
     nav{
-        background-color: #f2e9e4;
+        background-color: rgba(242, 233, 228, 0.001);
+
     }
     nav ul{
         display: none;
+        background-color: rgba(242, 233, 228, 0.79);
     }
     nav ul li, nav ul li a{
     width: 100%;
@@ -244,6 +248,9 @@ nav input[type=checkbox]:checked ~ ul{
     nav ul li, nav ul li:hover a{
       padding: 10px 0;
     }
+    .submenu{
+        background-color: rgba(242, 233, 228, 0.99);
+    }
     nav li:hover .submenu{
         display: block;
         position: static;
@@ -252,4 +259,17 @@ nav input[type=checkbox]:checked ~ ul{
         width: 12vw;
     }
 }
-/* @media screen and (max-width: 780px)
+/* @media screen and (max-width: 780px) */
+
+@media (orientation: landscape) and (max-device-width : 812px){
+    footer{
+        height: 5vh;
+    }
+    .logoFooter{
+        width: 8vw;
+    }
+    .menu{
+        width: 20vw;
+
+    }
+}
