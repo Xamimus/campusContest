@@ -1,0 +1,17 @@
+.photo{
+    width: 25%;
+}
+.photo:hover{
+    width: 25vw;
+    transform: translateY(-5vh);
+}
+
+.professionel{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+    font-weight: bold;
+}
+.scolaire{
+    flex: 50%;
+}

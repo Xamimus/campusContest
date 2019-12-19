@@ -95,15 +95,7 @@ footer{
     flex: 70%;
     text-justify: auto;
 }
-.divFleche{
-    flex: 10%;
-    float: right;
-}
-.fleche{
-    width: 6vh;
-    margin: 2vh 3vw 0 3vw;
-    padding: 1%;
-}
+
 nav{
     position: fixed;
     top : 0;
