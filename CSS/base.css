@@ -59,7 +59,8 @@ footer{
     background-image: url("../ressource/image/wood2.jpg");
     background-attachment: fixed;
     background-size: cover;
-
+    display: flex;
+    flex-direction: column;
 }
 .cv3{
     position: relative;
@@ -72,6 +73,8 @@ footer{
     background-image: url("../ressource/image/wood3.jpg");
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 .elementHaut{
     width: 100%;
@@ -213,7 +216,7 @@ nav input[type=checkbox]:checked ~ ul{
 }
 @media screen and (max-device-width: 780px){
     *{
-        font-size: 4vh;
+        font-size: 3vh;
     }
     .menu-mobile{
         display: block;
@@ -244,6 +247,9 @@ nav input[type=checkbox]:checked ~ ul{
     nav li:hover .submenu{
         display: block;
         position: static;
+    }
+    .logoFooter{
+        width: 12vw;
     }
 }
 /* @media screen and (max-width: 780px)
