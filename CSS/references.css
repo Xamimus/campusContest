@@ -22,6 +22,10 @@
 footer > a > img{
     transform: translateY(-1vh);
 }
+h3{
+    padding: 3vh 1vw;
+    margin: 5vh ;
+}
 
 @media screen and (max-device-width: 780px){
     .div1 .elementBas{
