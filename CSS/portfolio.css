@@ -14,16 +14,13 @@
 .logoEcole{
     width: 20%;
 }
-#myCarousel{
-    width: 50%;
-    height: 50%;
-    transform: translateX(50%);
-}
-footer > a > img{
-    transform: translateY(-1vh);
+.div2 img{
+    width: 24%;
+    padding: 1vh 2vw;
 }
 
-@media screen and (max-device-width: 780px){
+
+@media screen and (max-device-width: 781px){
     .div1 .elementBas{
         display: flex;
         flex-direction: column;
@@ -38,11 +35,17 @@ footer > a > img{
         justify-content: center;
         transform: translateX(-30%);
     }
-    #myCarousel{
-        width: 80%;
-        height: 80%;
-        transform: translateX(13%);
-
+    .logoEcole{
+        width: 60%;
+    }
+    .div2 .elementBas{
+        display: flex;
+        flex-direction: column;
+    }
+    .div2 .elementBas img{
+        width: 42%;
+        height: 25%;
+        transform: translateX(-1.5vw);
     }
 }
 @media (orientation: landscape) and (max-device-width : 812px){
@@ -60,11 +63,16 @@ footer > a > img{
     .div1Droite{
         transform: translateX(-1%);
     }
-    #myCarousel{
-        width: 60%;
-        height: 60%;
-        transform: translateX(34%);
-
+    .div2 .elementBas{
+        display: flex;
+        flex-direction: row;
     }
+    .div2 .elementBas img{
+        width: 30%;
+        height: 70%;
+        transform: translateX(-1.5vw);
+    }
+
+
 
 }
