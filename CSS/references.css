@@ -1,0 +1,70 @@
+
+.div1 .elementBas{
+    display: flex;
+    flex-direction: row;
+}
+.div1Gauche{
+    width: 40%;
+    flex: 40%;
+}
+.div1Droite{
+    width: 40%;
+    flex: 40%;
+}
+.logoEcole{
+    width: 20%;
+}
+#myCarousel{
+    width: 50%;
+    height: 50%;
+    transform: translateX(50%);
+}
+footer > a > img{
+    transform: translateY(-1vh);
+}
+
+@media screen and (max-device-width: 780px){
+    .div1 .elementBas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 2vh;
+    }
+    .div1Gauche{
+        justify-content: center;
+    }
+    .div1Droite{
+        justify-content: center;
+        transform: translateX(-30%);
+    }
+    #myCarousel{
+        width: 80%;
+        height: 80%;
+        transform: translateX(13%);
+
+    }
+}
+@media (orientation: landscape) and (max-device-width : 812px){
+    .div1 .elementBas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 2vh;
+    }
+
+    .logoEcole{
+        width: 30%;
+    }
+    .div1Droite{
+        transform: translateX(-1%);
+    }
+    #myCarousel{
+        width: 60%;
+        height: 60%;
+        transform: translateX(34%);
+
+    }
+
+}
