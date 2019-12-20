@@ -4,30 +4,32 @@
   <meta charset="UTF-8">
   <title>Maxime Martin</title>
   <meta name="viewport" content=""width="device-width, initial-scale=1">
-  <link rel="stylesheet" href="CSS/base.css">
-  <link rel="stylesheet" href="CSS/porfolio.css">
+  <link rel="stylesheet" href="../CSS/base.css">
+  <link rel="stylesheet" href="../CSS/portfolio.css">
   <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cantata+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="barre">
   <nav>
-    <label for="menu-mobile" class="menu-mobile"><img class="menu" src="ressource/image/menu.png" alt="Menu"></label>
+    <label for="menu-mobile" class="menu-mobile"><img class="menu" src="../ressource/image/menu.png" alt="Menu"></label>
     <input type="checkbox" id="menu-mobile" role='button'>
     <ul>
-      <li class="menu-cv"><a href="#">Curriculum Vitae</a>
+      <li class="menu-cv"><a href="../index.html">Curriculum Vitae</a>
         <ul class="submenu">
-          <li><a href="../index.html/#start">Curriculum Vitae</a></li>
-          <li><a href="../index.html/#milieu">Mes expériences</a></li>
-          <li><a href="../index.html/#end">Mes compétences</a></li>
+          <li><a href="../index.html#start">Curriculum Vitae</a></li>
+          <li><a href="../index.html#milieu">Mes expériences</a></li>
+          <li><a href="../index.html#end">Mes compétences</a></li>
         </ul>
       </li>
       <li class="menu-cv"><a href="#">Portfolio</a>
         <ul class="submenu">
-          <li><a href="#start">Début de page</a></li>
-          <li><a href="#milieu">Milieu de page</a></li>
-          <li><a href="#end">Fin de page</a></li>
+          <li><a href="#start">En ce moment</a></li>
+          <li><a href="#end">Mes projets</a></li>
         </ul>
       </li>
       <li class="menu-cv"><a href="#">Contact</a>
@@ -53,41 +55,67 @@
     <h1>Mon portfolio</h1>
   </div>
   <div class="elementBas">
-
+    <div class="div1Gauche">
+     <figure>
+      <img src="../ressource/image/campusacademy.png" alt="Campus Academy Nantes" class="logoEcole">
+      <figcaption>Etudiant chez</figcaption>
+      <figcaption>Campus Academy Nantes</figcaption>
+     </figure>
+    </div>
   </div>
 
 </div>
 
-<a name="milieu"></a>
+<a name="end"></a>
 
 <div class="div2">
   <div class="elementHaut">
     <h1>Projets achevés</h1>
   </div>
   <div class="elementBas">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
 
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <img src="../ressource/image/projet1.jpg" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Projet 1</h3>
+            <p>Ce projet n'existe pas encore</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="../ressource/image/projet2.jpg" alt="Chicago" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Projet 2</h3>
+            <p>Ce projet n'existe pas encore</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="../ressource/image/projet3.jpg" alt="New York" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Projet 3</h3>
+            <p>Ce projet n'existe pas encore</p>
+          </div>
+        </div>
   </div>
 </div>
 
 
 
-<div class="div3">
-  <div class="elementHaut">
-    <h1>Projets en cours / à venir</h1>
-  </div>
-  <div class="elementBas">
+<footer>
+  <a href="https://www.linkedin.com/in/maxime-martin-848755161/" target="_blank"><img class="logoFooter" src="../ressource/image/linkedin.png" alt="Linkedin"></a>
 
-  </div>
-</div>
-
-
-<a name="end"></a>
-
-
-<footer class="footer">
-  <a href="https://www.linkedin.com/in/maxime-martin-848755161/" target="_blank"><img class="logoFooter" src="ressource/image/linkedin.png" alt="Linkedin"></a>
-
-  <a href="https://github.com/Xamimus" target="_blank"><img class="logoFooter" src="ressource/image/github.png" alt="GitHub"></a>
+  <a href="https://github.com/Xamimus" target="_blank"><img class="logoFooter" src="../ressource/image/github.png" alt="GitHub"></a>
 </footer>
 
 
