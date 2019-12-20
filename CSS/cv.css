@@ -10,9 +10,7 @@
     justify-content: space-between;
     flex-direction: column;
 }
-.div2:hover{
-    background-color: #ABABAB;
-}
+
 .professionel{
     display: flex;
     justify-content: space-between;
@@ -20,9 +18,7 @@
     font-weight: bold;
     transform: translateY(-7vh);
 }
-.professionel:hover{
-    color: darkred;
-}
+
 .scolaire{
     display: flex;
     justify-content: space-around;
@@ -30,35 +26,50 @@
     font-weight: bold;
     transform: translateY(-5vh);
 }
-.scolaire:hover{
-    color: darkred;
-}
+
 .t2{
     transform: translateY(-4vh);
     color: #1E1149;
 }
 .logos{
     display: flex;
-    justify-content: space-between;
-    transform: translateY(12vh);
+    justify-content: space-around;
+    transform: translateY(10vh);
 }
 .logoTechno{
-    width: 10%;
+    width: 25%;
 }
-.logoTechnoCss{
-    width: 7%;
-}
+
 .pourcent{
     display: flex;
     justify-content: space-between;
     transform: translateY(17vh);
 }
-@media screen and (max-device-width: 780px){
+@media (orientation: portrait) and (max-device-width: 780px){
     .div2 .elementBas p{
         font-size: 2vh;
     }
     .div1{
         width: 100%;
+    }
+    .logos{
+        flex-wrap: wrap;
+        transform: translateY(-3vh);
+    }
+    .logoTechno{
+        width: 20%;
+        padding: 0.5vh;
+        margin: 0.5vh;
+    }
+}
+@media (orientation: landscape) and (max-device-width : 780px){
+    .logos{
+        display: flex;
+        justify-content: space-around;
+        transform: translateY(10vh);
+    }
+    .logoTechno{
+        width: 35%;
     }
 
 }
